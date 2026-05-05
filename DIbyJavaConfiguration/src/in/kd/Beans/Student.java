@@ -5,6 +5,12 @@ public class Student {
 	private String gender;
 	private int rollno;
 	private Address address;
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	public String getName() {
 		return Name;
 	}
