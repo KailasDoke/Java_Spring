@@ -10,7 +10,7 @@ public class Student {
 	@Autowired
 	private Address address;
 	@Autowired
-	@Qualifier("creatsubobj2")
+	@Qualifier("creatsubobj2 ")
 	private Subject subject;
 	
 	
