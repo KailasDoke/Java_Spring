@@ -9,9 +9,9 @@
 </head>
 <body>
 	<h1>Welcom user</h1>
-	<h2>Name: ${mname} </h2>
-	<h2>Email: ${memail} </h2>
-	<h2>Phone: ${mphone} </h2>
+	<h2>Name: ${muser.getNmae()} </h2>
+	<h2>Email: ${muser.getEmail()} </h2>
+	<h2>Phone: ${muser.getPhone()} </h2>
 	
 
 </body>

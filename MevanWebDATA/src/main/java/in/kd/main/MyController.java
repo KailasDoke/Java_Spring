@@ -51,9 +51,8 @@ public class MyController {
 			User.setPhone(myphone);
 			
 			
-			model.addAttribute("mname", myname);
-			model.addAttribute("memail", myemail);
-			model.addAttribute("mphone", myphone);
+			model.addAttribute("muser", User);
+			
 			return "profile" ;
 		}
 	}
